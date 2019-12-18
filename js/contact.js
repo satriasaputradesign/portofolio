@@ -13,7 +13,6 @@ $(document).ready(function(){
         $('#contactForm').validate({
             rules: {
                 name: {
-                    required: true,
                     minlength: 2
                 },
                 subject: {
